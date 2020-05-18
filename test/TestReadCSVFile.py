@@ -31,7 +31,7 @@ class TestReadCSVFile(unittest.TestCase):
 
         result = self.readCSVFile.getFileData(ENTITIES_FOLDER, "customer" + ".csv")
         self.assertEqual(result,['derek.somerville@glasgow.ac.uk', 'Derek', 'Somerville', '1234'])
-    def test_get
+
 def main():
     unittest.main()
 
